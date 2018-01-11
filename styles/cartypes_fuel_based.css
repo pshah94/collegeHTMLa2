@@ -1,0 +1,29 @@
+/* fuel car type page css */
+
+main .wrapper {
+    margin: 0% 0% 0% 10.3%;
+    min-width: 66.5%;
+    width: 66.5%;
+}
+
+.car_types .wrapper {
+    column-count: 2;
+    display: block;
+}
+
+.car_types .wrapper {
+    height: 100%;
+}
+
+.car_types .column h1 {
+    text-align: center;
+    padding: 5px;
+    background-color: #FBA100;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.car_types .column .content {
+    background-color: #6C648B;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}

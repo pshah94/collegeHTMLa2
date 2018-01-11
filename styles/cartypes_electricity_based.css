@@ -1,0 +1,23 @@
+/*  Electric Cars Types page css  */
+
+.e_car_types .wrapper {
+    column-count: 3;
+    display: block;
+}
+
+.e_car_types .wrapper {
+    height: 100%;
+}
+
+.e_car_types .column h1 {
+    text-align: center;
+    padding: 5px;
+    background-color: #FBA100;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.e_car_types .column .content {
+    background-color: #6C648B;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}

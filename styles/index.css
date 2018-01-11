@@ -1,0 +1,48 @@
+/* Home Page CSS */
+
+.home .homeAsideRight {
+    padding: 10px 2px;
+    font-size: 1.6em;
+}
+
+.home .content_section {
+    position: relative;
+    background-color: inherit;
+}
+
+.home .content_section h2 {
+    background-color: #fba100;
+    padding: 5px;
+}
+
+.home .content h3 {
+    background-color: #6c648b;
+    padding: 5px;
+}
+
+.home div.panel {
+    padding: 0px 30px;
+    background-color: #6BBAA7;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-left: 2px solid #777;
+    border-right: 2px solid #777;
+    border-bottom: 2px solid #777;
+}
+
+.home div.panel>p {
+    padding: 5px;
+    line-height: 30px;
+}
+
+.home .read_more_button {
+    margin-left: 40%;
+    border: 0;
+    padding: 10px 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #FBA100;
+    cursor: pointer;
+    margin-bottom: 5px;
+}

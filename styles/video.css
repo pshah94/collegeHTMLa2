@@ -1,0 +1,38 @@
+.videos .content_section {
+    position: relative;
+    height: 650px;
+}
+
+.videos .content_section h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: #FBA100;
+    font-size: 2em;
+}
+
+.videos .content_section .video_list .listing {
+    list-style: none;
+}
+
+.videos .content_section .video_list .listing li {
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.videos .content_section .video_list .listing li figure {
+    border: 2px solid #ffffff;
+}
+
+.videos .content_section .video_list .listing li figure .video_frame {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.videos .content_section .video_list .listing li figure figcaption {
+    padding: 5px;
+    border-top: 1px solid #FBA100;
+    text-align: center;
+}

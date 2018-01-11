@@ -1,0 +1,44 @@
+.images .content_section {
+    position: relative;
+    height: 650px;
+}
+
+.images .content_section h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: #FBA100;
+    font-size: 2em;
+}
+
+.images .content_section .image_display_area img {
+    width: 99%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.images .content_section .image_thumbnails .thumbnails_listing {
+    list-style: none;
+}
+
+.images .content_section .image_thumbnails .thumbnails_listing li {
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.images .content_section .image_thumbnails .thumbnails_listing li figure {
+    border: 2px solid #ffffff;
+}
+
+.images .content_section .image_thumbnails .thumbnails_listing li figure img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.images .content_section .image_thumbnails .thumbnails_listing li figure figcaption {
+    padding: 5px;
+    border-top: 1px solid #FBA100;
+    text-align: center;
+}

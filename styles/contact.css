@@ -1,0 +1,23 @@
+/*  Contact*/
+
+.contact .details {
+    background-color: #6BBAA7;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.contact .details ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.contact .details ul li i {
+    color: #FBA100;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.contact .details ul li a {
+    text-decoration: none;
+    color: white;
+}

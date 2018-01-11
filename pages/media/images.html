@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cars - Images</title>
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/images.css">
+    <script src="../../js/jquery-3.2.1.js"></script>
+    <script src="../../js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="../../images/logo.png" class="logo" alt="Car Logo" height="80" />
+    </header>
+    <nav id="nav_menu">
+        <ul>
+            <li> <a href="../../index.html"> Home </a> </li>
+            <li>
+                <a href="../../pages/car_types/index.html"> Car Types </a>
+                <ul>
+                    <li> <a href="../../pages/car_types/car_types.html"> Fuel Based </a> </li>
+                    <li> <a href="../../pages/car_types/electric_car_types.html"> Electricity Based </a> </li>
+                </ul>
+            </li>
+            <li>
+                <a href="../../pages/media/index.html"> Media </a>
+                <ul>
+                    <li> <a href="../../pages/media/images.html" class="current">Car Images </a> </li>
+                    <li> <a href="../../pages/media/video.html">Car Videos </a> </li>
+                </ul>
+            </li>
+            <li> <a href="../../pages/contact.html"> Contact</a> </li>
+            <li> <a href="../../pages/about.html"> About</a> </li>
+        </ul>
+    </nav>
+    <main class="images">
+        <div class="contentWrapper">
+            <aside class="leftAside">
+                <div class="thumbnailsWrapper">
+                    <div class="thumbnail">
+                        <a href="../../index.html">
+                            <figure>
+                                <img src="../../images/thumbnails/home.jpg" class="thumbnailImage" alt="car image">
+                                <figcaption> Home </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="thumbnail">
+                        <a href="../../pages/car_types/index.html">
+                            <figure>
+                                <img src="../../images/thumbnails/car_types.jpg" class="thumbnailImage" alt="car image">
+                                <figcaption> Car Types </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="thumbnail">
+                        <a href="../../pages/media/index.html">
+                            <figure>
+                                <img src="../../images/thumbnails/media.jpg" class="thumbnailImage" alt="car image">
+                                <figcaption> Media </figcaption>
+                            </figure>
+                        </a>
+
+                    </div>
+                    <div class="thumbnail">
+                        <a href="../../pages/contact.html">
+                            <figure>
+                                <img src="../../images/thumbnails/contact_us_icon.png" class="thumbnailImage" alt="car image">
+                                <figcaption>Contact </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="thumbnail">
+                        <a href="../../pages/about.html">
+                            <figure>
+                                <img src="../../images/thumbnails/about.jpg" class="thumbnailImage" alt="car image">
+                                <figcaption> About </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+            <aside class="rightAside">
+                <h2>
+                    <a href="https://www.pexels.com/search/car/" target="_blank">
+                        Click here
+                    </a> to view more car images
+                </h2>
+            </aside>
+            <article class="content_section wrapper">
+                <h2> Car Images </h2>
+                <div class="image_display_area">
+                    <img src="../../images/display_msg.png" alt="hover over following images to view it">
+                </div>
+                <div class="image_thumbnails">
+                    <ul class="thumbnails_listing">
+                        <li>
+                            <figure>
+                                <img onmouseover="changeImage(this.src)" src="../../images/car_info_images/hyundai_tucson.png" class="thumbnailImage" alt="car image">
+                                <figcaption> Hyundai Tucson </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img onmouseover="changeImage(this.src)" src="../../images/car_info_images/Toyota_tacoma.png" class="thumbnailImage" alt="car image">
+                                <figcaption> Toyota Tacoma </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img onmouseover="changeImage(this.src)" src="../../images/car_info_images/toyota_yaris.jpg" class="thumbnailImage" alt="car image">
+                                <figcaption> Toyota Yaris </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2017, Cars - By Parth Shah - Student @ Conestoga</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/* Car type Index page css */
+
+.carTypesIndex .content_section {
+    width: 70%;
+    left: 10.1%;
+    top: 30px;
+    border: 2px solid #6C648B;
+    border-top: none;
+}
+
+.carTypesIndex .content_section h2 {
+    background-color: #fb9f00;
+    padding: 5px;
+}
+
+.carTypesIndex .content_section p {
+    padding: 10px;
+}

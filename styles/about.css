@@ -1,0 +1,9 @@
+/* Page 4 CSS  -  About*/
+
+.about .wrapper {
+    height: 250px;
+}
+
+.about .wrapper img {
+    margin: 0px auto;
+}
